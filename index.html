@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!--Bootstrap CSS & Javascript dan Import Font-->
+    
+    <link rel="stylesheet" href="Bootstrap 4.6/css/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap 4.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="rapi.css">
+    <style>
+        body 
+        {background-image: url(./Image/Yakuza\ Background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      border: slategray;
+    border-width: 20px;
+  border-style: groove}
+    </style>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        .Marker{font-family: 'Permanent Marker', cursive;}
+        .Roboto{font-weight: 'Roboto Condensed', sans-serif;}
+    </style>
+
+    <script src="Bootstrap 4.6/js/jquery-3.6.0.min.js"></script>
+    <script src="Bootstrap 4.6/js/bootstrap.js"></script>
+    <script src="Bootstrap 4.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <section>
+        <!--Class Container & Navbar-->       
+        <div class="container-fluid mt-4" style="max-width: 100%;">
+            <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-dark">
+                <div class="d-none d-lg-block d-xl-block">
+                    <a class="navbar-brand ml-3" href="#"><img src="Image/Majima Tatoo.png" width="70px"></a>
+                </div>
+
+                <marquee class="mr-3" style="background-color: white;">Oleh : Mhd.Ikram Al Asy'ari Lubis &nbsp; NIM : 211402108</marquee>
+                <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Profil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Belajar
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.w3schools.com/html/">HTML</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/css/">CSS</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/js/">Javascript</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.w3schools.com/bootstrap4/">Bootstrap</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Locked</a>
+                    </li>
+                  </ul>
+                    <button class="btn btn-outline-primary mr-2" type="submit">Login</button>
+                    <button class="btn btn-outline-success my-2 mr-5" type="submit">Search</button>
+                </div>
+              </nav>
+                    
+            <div class="row">
+                <!--Isi Tengah-->
+                <div class="col align-self-center mt-3 ml-3">
+                <h1 class="Marker">Hello!!</h1>
+                <h4 class="Marker">Selamat Datang di Website Bootstrap Pertamaku!</h4>
+                    <div style="border: slategrey;border-width: 5px;border-style: solid;background-color: white; padding: 10px;">
+                        <p class="Roboto">Website ini berisi berita-berita seputar game. Khususnya Game yang dibuat oleh <a href="https://en.wikipedia.org/wiki/Ryu_Ga_Gotoku_Studio">Ryu Ga Gotoku (RGG) Studio</a>.<br/>
+
+                    Ryu Ga Gotoku Studio merupakan Video Game developer yang berada di bawah perusahaan video game SEGA. RGG membuat sebuah franchise game "Yakuza" yang saat ini sedang populer di dunia khususnya asia tenggara dengan Seri "Yakuza" yang paling terkenal adalah Yakuza 0.<br/>
+
+                RGG Studio pada 24 september 2021 merilis game terbarunya "Lost Judgement" yang tersedia pada konsol PS4, PS5, Xbox One, dan Xbox Series.</p>
+    
+                        <button class="btn-outline-success" role="button" href="#"><b>Get Started!</b></button>
+                    </div>
+                </div>
+                    <div class="my-auto d-none d-lg-block d-xl-block" style="vertical-align: middle;">
+                        <img class="my-auto" src="Image/Yakuza Franchise Logo.png" style="width: 100%;height: 100%;">
+                    </div>
+            </div>
+            <!--Berita-->
+            <div class="card-deck mb-4" style="margin-top: 30px;">
+                <div class="card" style="border: slategrey;border-width: 3px;border-style: solid;">
+                  <img src="Image/Lost Judgement.jfif" class="card-img-top" alt="Lost Judgement">
+                  <div class="card-body">
+                    <h5 class="card-title">10 Fakta Lost Judgment yang Harus Kalian Ketahui, Sekuel dari Spinoff Yakuza</h5>
+                    <p class="card-text"> Untuk kalian yang mengikuti seri Yakuza, pasti akan sangat familiar dengan Video Game dengan judul Judgment. Nah, sekuel terbaru dari Judgment yang diberikan judul Lost Judgment akan rilis pada tanggal 24 September mendatang dan pastinya akan sangat ditunggu oleh para pecinta game mafia yang penuh dengan kebrutalan didalamnya.<br/><br/><a href="https://duniagames.co.id/discover/article/fakta-lost-judgment">Baca Selengkapnya</a></p>
+                    <p class="card-text"><small class="text-muted">16 September</small></p>
+                  </div>
+                </div>
+                <div class="card" style="border: slategrey;border-width: 3px;border-style: solid;">
+                  <img src="Image/Yakuza Like A Dragon.jpg" class="card-img-top" alt="Yakuza : Like A Dragon">
+                  <div class="card-body">
+                    <h5 class="card-title">Yakuza: Like A Dragon may be the next big game heading to Xbox Game Pass</h5>
+                    <p class="card-text">Another day, another E3 2021 leak. This one concerns Yakuza: Like A Dragon and a rumor that it's coming to Xbox Game Pass sooner rather than later.
+
+                        While not confirmed as definite, of course, the Brazillian Microsoft Store seemingly shared premature details of the game on the official store, suggesting the Sega title is heading to Xbox's subscription service.<br/><br><a href="https://www.gamesradar.com/yakuza-like-a-dragon-may-be-the-next-big-game-heading-to-xbox-game-pass/">Read More</a></p>
+                    <p class="card-text"><small class="text-muted">13 Juni 2021</small></p>
+                  </div>
+                </div>
+                <div class="card" style="border: slategrey;border-width: 3px;border-style: solid;">
+                  <img src="Image/Yakuza 0.jpg" class="card-img-top" alt="Yakuza 0">
+                  <div class="card-body">
+                    <h5 class="card-title">Yakuza 0: Lahirnya Sang Legenda</h5>
+                    <p class="card-text">Yakuza 0 adalah game action adventure besutan SEGA yang dirilis pada tanggal 26 Februari 2020 untuk Xbox One X dan Windows 10 yang bisa didapat via Game Pass dan Microsoft Store.<br/><br/><a href="https://duniagames.co.id/discover/article/review-yakuza-0-lahirnya-sang-legenda">Baca Selengkapnya</a>
+                    </p>
+                    <p class="card-text"><small class="text-muted">28 Februari</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>    
+</body>
+</html>
